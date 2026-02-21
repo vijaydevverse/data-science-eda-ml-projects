@@ -68,7 +68,7 @@ These projects demonstrate practical knowledge of data handling, visualization, 
 * Matplotlib
 * Seaborn
 * Scikit-learn
-* Google Colab / Jupyter Notebook
+* Google Colab 
 
 ---
 
