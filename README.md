@@ -89,7 +89,7 @@ These projects demonstrate practical knowledge of data handling, visualization, 
 ## How to Use
 
 1. Clone the repository
-   git clone https://github.com/vijaydevverse/data-science-eda-ml-projects
+   git clone git clone https://github.com/vijaydevverse/data-science-eda-ml-projects.git
 
 2. Open the notebooks in Google Colab or Jupyter Notebook
 
