@@ -1,5 +1,3 @@
-# Data Science Projects Portfolio
-
 ## Overview
 
 This repository contains a collection of end-to-end Data Science projects completed as part of academic learning and practical exploration. Each project includes data preprocessing, exploratory data analysis (EDA), feature engineering, and machine learning model building.
