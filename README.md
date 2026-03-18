@@ -1,172 +1,151 @@
-Overview
+---
 
-This repository contains a collection of end-to-end Data Science projects completed as part of academic learning and hands-on practice. Each project includes data preprocessing, exploratory data analysis (EDA), feature engineering, and machine learning model implementation.
+## Overview
 
-The work covers real-world and synthetic datasets across multiple domains such as finance, healthcare, e-commerce, and user behavior analytics.
+* Collection of end-to-end Data Science projects
+* Covers data preprocessing, EDA, feature engineering, and ML models
+* Includes real-world and synthetic datasets
+* Focus on regression, classification, and data analysis
 
-Projects Included
-1. Salary Prediction
+---
 
-📁 SalaryPredictionEdaV.ipynb
+## Projects Included
 
-Regression model to predict salaries
+* **Salary Prediction**
 
-Data preprocessing, encoding, and scaling
+  * 📁 `SalaryPredictionEdaV.ipynb`
+  * Regression model for salary estimation
+  * Data preprocessing, encoding, scaling
 
-Evaluated using R² score
+* **Restaurant Ranking**
 
-2. Restaurant Ranking
+  * 📁 `RestaurantRankingEdaV.ipynb`
+  * Predicted restaurant ratings
+  * Feature engineering + regression
 
-📁 RestaurantRankingEdaV.ipynb
+* **Digital Payment Fraud Detection**
 
-Predicted restaurant ratings
+  * 📁 `DigitalPaymentFraudDetectionEdaV.ipynb`
+  * Fraud vs non-fraud classification
+  * Logistic Regression + accuracy evaluation
 
-Feature engineering and regression modeling
+* **Heart Attack Prediction**
 
-3. Digital Payment Fraud Detection
+  * 📁 `HeartAttackEdaV.ipynb`
+  * Classification model for heart disease
+  * EDA + correlation analysis
 
-📁 DigitalPaymentFraudDetectionEdaV.ipynb
+* **Customer Travel Analysis**
 
-Classified transactions as fraud or non-fraud
+  * 📁 `CustomerTravelEdaV.ipynb`
+  * Travel behavior analysis
+  * Predictive insights
 
-Applied Logistic Regression and evaluation metrics
+* **Sleep Data Analysis**
 
-4. Heart Attack Prediction
+  * 📁 `SleepDataEdaV.ipynb`
+  * Sleep pattern analysis
+  * Visualization + statistics
 
-📁 HeartAttackEdaV.ipynb
+* **Bangalore House Price Prediction**
 
-Classification model for heart disease prediction
+  * 📁 `BangaluruEdaV.ipynb`
+  * Housing price prediction using regression
+  * Data cleaning + transformation
 
-EDA and correlation analysis
+* **Loan Prediction**
 
-5. Customer Travel Analysis
+  * 📁 `LoanEdaV.ipynb`
+  * Loan approval classification
+  * Preprocessing + ML models
 
-📁 CustomerTravelEdaV.ipynb
+* **Online Shoppers Purchase Prediction**
 
-Analyzed customer booking patterns
+  * 📁 `OnlineShoppersPurchaseEdaV.ipynb`
+  * Predict purchase behavior
+  * Classification on session data
 
-Built predictive insights from travel data
+* **Commodity Price Analysis**
 
-6. Sleep Data Analysis
+  * 📁 `PriceCommodityPriceEdaV.ipynb`
+  * Price trend analysis
+  * Regression-based insights
 
-📁 SleepDataEdaV.ipynb
+* **Spotify User Behavior Analysis**
 
-Explored sleep behavior and health metrics
+  * 📁 `SpotifyUserBehaviorEdaV.ipynb`
+  * Active vs inactive user prediction
+  * Logistic Regression + behavioral features
 
-Visualization and statistical analysis
+* **Synthetic Financial Data Analysis**
 
-7. Bangalore House Price Prediction
+  * 📁 `SyntheticFinanceEdaV.ipynb`
+  * EDA on synthetic financial dataset
+  * ML-based insights
 
-📁 BangaluruEdaV.ipynb
+* **General EDA**
 
-Regression model for housing prices
+  * 📁 `EdaV.ipynb`
+  * Basic EDA techniques
+  * Data cleaning + visualization
 
-Data cleaning and transformation
+---
 
-8. Loan Prediction
+## Tools and Technologies
 
-📁 LoanEdaV.ipynb
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* Google Colab
 
-Classified loan approval status
+---
 
-Applied preprocessing and classification models
+## Techniques Used
 
-9. Online Shoppers Purchase Prediction
+* Data Cleaning
+* Handling Missing Values
+* Label Encoding
+* Feature Scaling (MinMaxScaler)
+* Exploratory Data Analysis (EDA)
+* Correlation Analysis
+* Regression Models
+* Classification Models
+* Model Evaluation (Accuracy, R² Score, RMSE)
 
-📁 OnlineShoppersPurchaseEdaV.ipynb
+---
 
-Predicted customer purchase behavior
+## How to Use
 
-Used classification techniques on session data
+* Clone the repository
 
-10. Commodity Price Analysis
+  ```
+  git clone https://github.com/vijaydevverse/data-science-eda-ml-projects.git
+  ```
 
-📁 PriceCommodityPriceEdaV.ipynb
+* Open notebooks in Colab or Jupyter
 
-Analyzed and modeled commodity price trends
+* Install dependencies
 
-Applied regression and time-based insights
+  ```
+  pip install pandas numpy matplotlib seaborn scikit-learn
+  ```
 
-11. Spotify User Behavior Analysis
+* Run notebooks step by step
 
-📁 SpotifyUserBehaviorEdaV.ipynb
+---
 
-Predicted user activity (active vs inactive)
+## Author
 
-Created target variable from inactivity data
+* Vijay Krishnan P.M.
 
-Logistic Regression with baseline evaluation
+---
 
-12. Synthetic Financial Data Analysis
+## Notes
 
-📁 SyntheticFinanceEdaV.ipynb
+* Created for learning and demonstration purposes
+* Uses public and synthetic datasets
 
-Worked on synthetic financial dataset
-
-EDA and machine learning insights
-
-13. General Exploratory Data Analysis
-
-📁 EdaV.ipynb
-
-Applied core EDA techniques
-
-Data cleaning, visualization, and insights generation
-
-Tools and Technologies
-
-Python
-
-Pandas
-
-NumPy
-
-Matplotlib
-
-Seaborn
-
-Scikit-learn
-
-Google Colab
-
-Techniques Used
-
-Data Cleaning
-
-Handling Missing Values
-
-Label Encoding
-
-Feature Scaling (MinMaxScaler)
-
-Exploratory Data Analysis (EDA)
-
-Correlation Analysis
-
-Regression Models
-
-Classification Models
-
-Model Evaluation (Accuracy, R² Score, RMSE)
-
-How to Use
-
-Clone the repository
-
-git clone https://github.com/vijaydevverse/data-science-eda-ml-projects.git
-
-Open notebooks in Google Colab or Jupyter Notebook
-
-Install dependencies if needed
-
-pip install pandas numpy matplotlib seaborn scikit-learn
-
-Run the notebooks step by step
-
-Author
-
-Vijay Krishnan P.M.
-
-Notes
-
-This repository is created for learning and demonstration purposes. The datasets used are publicly available or synthetic datasets for educational use.
+---
